@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Đi chơi khummmm</title>
+	<link rel="stylesheet" href=".\style.css">
+</head>
+<body>
+	<div class="question">
+		<h1>Đi chơi khummmm</h1>
+		<div id="btn">
+			<div type="button" class="bt1">
+				<button type="button" class="bt1-tc" onclick="abc()">
+					<h1>Từ chối</h1>
+				</button>
+					<button type="button" class="bt1-dy" onclick="abc()">
+				<h1>Đồng ý</h1>
+				</button>
+			</div>
+			
+			<button type="button" class="bt2" onclick="abc()">
+				<h1>Đồng ý</h1>
+			</button>		
+		</div>				
+	</div>	
+	<img id="theImage" src="yourImage.png">
+	<button id="close" type="button" onclick="xyz()">X</button>
+	
+	<script>		
+    function abc() {
+        document.getElementById("theImage").style.visibility = "visible";
+        document.getElementById("close").style.visibility = "visible";
+    }
+	function xyz() {
+		document.getElementById("theImage").style.visibility = "hidden";
+		document.getElementById("close").style.visibility = "hidden";
+	}
+	</script>
+	
+</body>
+</html>
